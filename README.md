@@ -1,1 +1,1 @@
-# Projeto desenvolvido pela turmar 65 FullStack
+#Projeto desenvolvido pela turma 65 FullStack
