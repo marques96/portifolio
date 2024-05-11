@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1px;
+        height: 100vh;
+      }
+      .child {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20%;
+        height: 100px;
+        background-color: slateblue;
+        /*order: 1px solid #ffffff;*/
+        color: #ffffff;
+        font-size: 3em;
+        gap: 3px;
+      }
+      .child__child {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 20%;
+        background-color: bisque;
+        color: tomato;
+        font-size: 1em;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="child">
+        <div class="child__child">1</div>
+        <div class="child__child">2</div>
+        <div class="child__child">3</div>
+      </div>
+
+      <div class="child">
+        <div class="child__child">1</div>
+        <div class="child__child">2</div>
+        <div class="child__child">3</div>
+      </div>
+
+      <div class="child">
+        <div class="child__child">1</div>
+        <div class="child__child">2</div>
+        <div class="child__child">3</div>
+      </div>
+
+      <div class="child">
+        <div class="child__child">1</div>
+        <div class="child__child">2</div>
+        <div class="child__child">3</div>
+      </div>
+    </div>
+  </body>
+</html>
